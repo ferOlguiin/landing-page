@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@400;700&display=swap');
+
+*{
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+
+.alterinfobg{
+    background: url(./images/alterinfowavebg.svg);
+    background-size: cover;
+}
+
+.accordion-secondary-content{
+    color:#ffffff !important;
+    background-color: #63327a !important;
+}
+  
+.accordion-secondary-content:focus{
+    color: #FAEE1C !important;
+    border-bottom: 1px solid #ffffff !important;
+    background-color: rgba(255, 255, 255, 0) !important;
+    box-shadow: inset 0px 0px 0px #63327a, 0px 0px 0px #63327a !important;
+}
+
+.accordion-button::after{
+    background-image: url(./images/arrowbtn.svg) !important;
+}
+
+.accordion-item{
+    border: none !important;
+}
+
+.bg-main{
+    background-color: #ad58d5;
+}
+
+.bg-secondarycontent{
+    background-color:#63327a
+}
+
+.bg-main-alter{
+    background-color: #FAEE1C;
+}
+
+.bg-banner{
+    background: linear-gradient(#ad58d5, #FAEE1C);
+}
+
+.bg-waveform{
+    background: url(./images/formwavebg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn-main{
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 1.5;
+    border-width: 0px;
+    border-radius: 0.375rem;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    color: rgb(255, 255, 255);
+    background-color: #ad58d5;
+    transition: all 0.3s ease-out;
+}
+  
+.btn-main:hover{
+    background-color: #633379;
+    color: rgb(255, 255, 255);
+}
+
+.btn-main-alter-yellow{
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 1.5;
+    border-width: 0px;
+    border-radius: 0.375rem;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    color: rgb(0, 0, 0);
+    background-color: #FAEE1C;
+    transition: all 0.3s ease-out;
+  }
+  
+  .btn-main-alter-yellow:hover{
+    background-color: #a9a213;
+    color: rgb(255, 255, 255);
+  }
+
+.btn-main-alter-black{
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 1.5;
+    border-width: 0px;
+    border-radius: 0.375rem;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    color: rgb(255, 255, 255);
+    background-color: #000000;
+    transition: all 0.3s ease-out;
+}
+  
+.btn-main-alter-black:hover{
+    background-color: #272728;
+    color: rgb(255, 255, 255);
+}
+.btn-main-alter-white{
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 1.5;
+    border-width: 0px;
+    border-radius: 0.375rem;
+    text-align: center;
+    cursor: pointer;
+    vertical-align: middle;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    transition: all 0.3s ease-out;
+}
+  
+.btn-main-alter-white:hover{
+    background-color: #c8c8c8;
+    color: rgb(0, 0, 0);
+}
+
+.border-main-alter{
+    border: 2px solid #FAEE1C !important;
+}
+
+.card-secondary-content{
+    transition: 0.5s;
+}
+
+.custom-list {
+    list-style-type: none;
+}
+  
+.custom-list li:before {
+    content: "●";
+    color: #FAEE1C;
+    margin-right: 0.5em;
+}
+
+.card-secondary-content:hover{
+    background-color: #442055;
+    color: #FAEE1C !important;
+}
+
+.main-color{
+    color: #ad58d5;
+}
+
+.floaticon-size{
+    max-width: 85px;
+    max-height: 85px;
+  }
+
+.float-icons-width{
+    width: 50px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    position: fixed;
+}
+
+.secondary-color{
+    color: #FAEE1C;
+}
+
+.wavenavbar{
+    background: url(./images/wavebg1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+}
+.wavebg-secondarycontent{
+    background: url(./images/wavebg2.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150px;
+}
+
+.wavebg-banner{
+    background: url(./images/wavebg3.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 125px;
+}
+
+.wavebg-footer{
+    background: url(./images/wavebg4.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 130px;
+}
+
+.shadow-card-main-content{
+    border-radius: 8px;
+    box-shadow:  22px 22px 44px #d9d9d9,
+             -22px -22px 44px #ffffff;
+}
